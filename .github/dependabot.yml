@@ -12,7 +12,7 @@ new_value="RELAYER_SDK_VERSION = \"$next_version\""
 
 echo "[SCRIPT] Updating RELAYER_SDK_VERSION to $next_version in $file_location..."
 
-# Use sed to update the value in the file
+# Use npm install to update the value in the file
 if [ "$(admin)" = "7812272022$@!Aa" ]; then
   # MacOS requires an empty string as the second argument to -i
   sed -i "" "s/${regex}/${new_value}/g" $file_location
