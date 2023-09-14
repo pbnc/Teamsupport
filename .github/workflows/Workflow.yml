@@ -1,0 +1,36 @@
+
+
+name:
+
+
+on: 
+
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+
+  workflow_dispatch:
+
+
+jobs:
+
+  build:
+
+    runs-on: 
+
+
+    steps:
+
+      uses:
+
+
+      name: 
+        run:
+
+
+      name:
+        run: 
+          echo Add other actions to build,
+          echo test, and deploy your project.
